@@ -4,8 +4,40 @@ import { render } from 'react-dom'
 class App extends React.Component {
   render() {
     return (
+      <div className="app">
+        <Header />
+        <Menu />
+        <Article />
+      </div>
+    )
+  }
+}
+
+class Header extends React.Component {
+  render() {
+    return (
+      <header>
+        This is header.
+      </header>
+    )
+  }
+}
+
+class Menu extends React.Component {
+  render() {
+    return (
       <div>
-        Hello world from App Component!!!!
+        This is menu.
+      </div>
+    )
+  }
+}
+
+class Article extends React.Component {
+  render() {
+    return (
+      <div>
+        This is Article.
       </div>
     )
   }
