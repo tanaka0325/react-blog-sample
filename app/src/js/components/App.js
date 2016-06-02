@@ -10,7 +10,7 @@ class App extends React.Component {
       <div className="app">
         <Header />
         <Menu />
-        <Article />
+        <Article url="http://localhost:3000/" />
       </div>
     )
   }
