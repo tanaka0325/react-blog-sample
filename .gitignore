@@ -74,3 +74,4 @@ jspm_packages
 *.orig
 
 app/dest/js/*
+!.gitkeep
